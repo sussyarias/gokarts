@@ -1,0 +1,29 @@
+<DOCTYPE HTML>
+<meta charset = "utf8" />
+<?php  
+// crear conexion con oracle
+$conexion = oci_connect("hr", "hr", "localhost/xe"); 
+ 
+if (!$conexion) {    
+  $m = oci_error();    
+  echo $m['message'], "n";    
+  exit; 
+} else {    
+  echo "Conexión con éxito a Oracle!"; } 
+  
+// Consulta para obtener el nombre del empleado
+$SELECT = oci_parse($conexion, "SELECT first_name FROM employees WHERE employee_id = 100");
+oci_execute($SELECT);
+
+// Inicializar variable para el nombre del empleado
+$employee_name = "Empleado";
+
+if ($row = oci_fetch_assoc($SELECT)) {
+    $employee_name = $row['FIRST_NAME'];
+}
+
+oci_free_statement($SELECT);
+oci_close($conexion);
+?>
+ 
+?>

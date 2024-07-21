@@ -1,0 +1,49 @@
+
+2024-07-21 21:36:58 ingresando a la funcion
+2024-07-21 21:36:58 
+2024-07-21 21:36:58 despues de oci_connect
+2024-07-21 21:36:58 antes del insert
+2024-07-21 21:36:58 exito
+2024-07-21 21:36:58 despues del insert
+2024-07-21 21:39:20 ingresando a la funcion
+2024-07-21 21:39:20 Alex
+2024-07-21 21:39:20 despues de oci_connect
+2024-07-21 21:39:20 antes del insert
+2024-07-21 21:39:20 exito
+2024-07-21 21:39:20 despues del insert
+2024-07-21 21:45:12 ingresando a la funcion
+2024-07-21 21:45:12 
+2024-07-21 21:45:13 despues de oci_connect
+2024-07-21 21:45:13 antes del insert
+2024-07-21 21:45:13 exito
+2024-07-21 21:45:13 despues del insert
+2024-07-21 22:00:27 ingresando a la funcion
+2024-07-21 22:00:27 Alex
+2024-07-21 22:00:27 despues de oci_connect
+2024-07-21 22:00:27 antes del insert
+2024-07-21 22:00:27 exito
+2024-07-21 22:00:27 despues del insert
+2024-07-21 22:46:53 ingresando a la funcion
+2024-07-21 22:46:53 
+2024-07-21 22:46:53 despues de oci_connect
+2024-07-21 22:46:53 antes del insert
+2024-07-21 22:46:53 exito
+2024-07-21 22:46:53 despues del insert
+2024-07-21 22:49:41 ingresando a la funcion
+2024-07-21 22:49:41 
+2024-07-21 22:49:41 despues de oci_connect
+2024-07-21 22:49:41 antes del insert
+2024-07-21 22:49:41 exito
+2024-07-21 22:49:41 despues del insert
+2024-07-21 23:06:02 ingresando a la funcion
+2024-07-21 23:06:02 susy
+2024-07-21 23:06:02 despues de oci_connect
+2024-07-21 23:06:02 antes del insert
+2024-07-21 23:06:02 exito
+2024-07-21 23:06:02 despues del insert
+2024-07-21 23:17:28 ingresando a la funcion
+2024-07-21 23:17:28 
+2024-07-21 23:17:28 despues de oci_connect
+2024-07-21 23:17:28 antes del insert
+2024-07-21 23:17:28 exito
+2024-07-21 23:17:28 despues del insert
