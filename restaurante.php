@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>GoKarts</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="top-bar row gx-0 align-items-center d-none d-lg-flex">
+            <div class="col-lg-6 px-5 text-start">
+                <small><i class="fa fa-map-marker-alt me-2"></i>200 m este, Centro Comercial Milla de Oro Plaza</small>
+                <small class="ms-4"><i class="fa fa-envelope me-2"></i>info@GoKarts.com</small>
+            </div>
+
+            <div class="col-lg-6 px-5 text-end">
+                <small>Siguenos en:</small>
+                <a class="text-body ms-3" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="text-body ms-3" href=""><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                <h1 class="fw-bold text-primary mb-4">G<span class="text-secondary">o</span>Ka<span class="text-secondary">rts</span></h1>
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.php" class="nav-item nav-link active">Inicio</a>
+                    <a href="nosotros.php" class="nav-item nav-link">Nosotros</a>
+                    <a href="restaurante.php" class="nav-item nav-link">Restaurante</a>
+                    <a href="" class="nav-item nav-link">Reserva</a>
+                    <a href="contactanos.php" class="nav-item nav-link">Contactanos</a>
+                </div>
+                <div class="d-none d-lg-flex ms-2">
+
+                    <a class="btn-sm-square bg-white rounded-circle ms-3" href="carrito.php">
+                        <small class="fa fa-shopping-bag text-body"></small>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s" style="background-image: none; background-color: #e1e4eb;">
+        <div class="container">
+            <h1 class="display-3 mb-3 animated slideInDown">Restaurante</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a class="text-body" href="index.html">Inicio</a></li>
+                    <li class="breadcrumb-item text-dark active" aria-current="page">Restaurante</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    <!-- Product Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-0 gx-5 align-items-end">
+                <div class="col-lg-6">
+                    <div class="section-header text-start mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                        <h1 class="display-5 mb-3">Nuestros Platillos</h1>
+                        <p>En GoKarts, combinamos la emoción de las carreras con una deliciosa oferta gastronómica.
+                            Sabemos que después de una emocionante vuelta en la pista, te mereces una comida que
+                            complemente
+                            la adrenalina y la diversión</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-start text-lg-end wow slideInRight" data-wow-delay="0.1s">
+                    <ul class="nav nav-pills d-inline-flex justify-content-end mb-5">
+                        <li class="nav-item me-2">
+                            <a class="btn btn-outline-primary border-2 active" data-bs-toggle="pill" href="#tab-1">Comidas</a>
+                        </li>
+                        <li class="nav-item me-2">
+                            <a class="btn btn-outline-primary border-2" data-bs-toggle="pill" href="#tab-2">Postres </a>
+                        </li>
+                        <li class="nav-item me-0">
+                            <a class="btn btn-outline-primary border-2" data-bs-toggle="pill" href="#tab-3">Bebidas</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tab-content">
+                <div id="tab-1" class="tab-pane fade show p-0 active">
+                    <div class="row g-4">
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid" src="img\Restaurante\Comidas\Hamburguesa/Hamburguesa1.jpg" alt="" style="width: 300px; height: 249px;">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2">Hamburguesa Clásica</a>
+                                    <a class="d-block h6 mb-2">Carne de res 100% con lechuga, tomate, cebolla y ketchup
+                                        mas papas medianas.</a>
+                                    <span class="text-primary me-1">₡5000</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid" src="img\Restaurante\Comidas\Hamburguesa/Hamburguesa2.jpg" alt="" style="width: 300px; height: 249px;">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2">Cheeseburger</a>
+                                    <a class="d-block h6 mb-2">Hamburguesa de carne de res con queso cheddar derretido, lechuga, tomate y cebolla.</a>
+                                    <span class="text-primary me-1">₡5000</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid" src="img\Restaurante\Comidas\Hamburguesa/Hamburguesa2.jpg" alt="" style="width: 300px; height: 249px;">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2">Hamburguesa de Pollo</a>
+                                    <a class="d-block h6 mb-2">Hamburguesa de carne de res con queso cheddar derretido, lechuga, tomate y cebolla.</a>
+                                    <span class="text-primary me-1">₡5000</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid" src="img/restaurante2.jpg" alt="" style="width: 300px; height: 249px;">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Sándwich Club</a>
+                                    <a class="d-block h6 mb-2">Pollo a la parrilla, bacon, lechuga, tomate y mayonesa en
+                                        pan tostado.</a>
+                                    <span class="text-primary me-1">₡5000</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid" src="img/restaurante3.jpg" alt="" style="width: 300px; height: 249px;">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2">Pizza Vegetariana</a>
+                                    <a class="d-block h6 mb-2">Salsa de tomate, mozzarella, pimientos, champiñones y
+                                        aceitunas.</a>
+
+                                    <span class="text-primary me-1">₡5000</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid" src="img/restaurante4.jpg" alt="" style="width: 300px; height: 249px;">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Tacos de Carne Asada</a>
+                                    <a class="d-block h6 mb-2">Carne de res marinada con cebolla, cilantro y salsa
+                                        fresca en tortillas de maíz.</a>
+                                    <span class="text-primary me-1">₡5000</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid" src="img/restaurante4.jpg" alt="" style="width: 300px; height: 249px;">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Tacos de Carne Asada</a>
+                                    <a class="d-block h6 mb-2">Carne de res marinada con cebolla, cilantro y salsa
+                                        fresca en tortillas de maíz.</a>
+                                    <span class="text-primary me-1">₡5000</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid" src="img/restaurante4.jpg" alt="" style="width: 300px; height: 249px;">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Tacos de Carne Asada</a>
+                                    <a class="d-block h6 mb-2">Carne de res marinada con cebolla, cilantro y salsa
+                                        fresca en tortillas de maíz.</a>
+                                    <span class="text-primary me-1">₡5000</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid" src="img/restaurante4.jpg" alt="" style="width: 300px; height: 249px;">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Tacos de Carne Asada</a>
+                                    <a class="d-block h6 mb-2">Carne de res marinada con cebolla, cilantro y salsa
+                                        fresca en tortillas de maíz.</a>
+                                    <span class="text-primary me-1">₡5000</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid" src="img/restaurante4.jpg" alt="" style="width: 300px; height: 249px;">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Tacos de Carne Asada</a>
+                                    <a class="d-block h6 mb-2">Carne de res marinada con cebolla, cilantro y salsa
+                                        fresca en tortillas de maíz.</a>
+                                    <span class="text-primary me-1">₡5000</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid" src="img/restaurante4.jpg" alt="" style="width: 300px; height: 249px;">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Tacos de Carne Asada</a>
+                                    <a class="d-block h6 mb-2">Carne de res marinada con cebolla, cilantro y salsa
+                                        fresca en tortillas de maíz.</a>
+                                    <span class="text-primary me-1">₡5000</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid" src="img/restaurante4.jpg" alt="" style="width: 300px; height: 249px;">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Tacos de Carne Asada</a>
+                                    <a class="d-block h6 mb-2">Carne de res marinada con cebolla, cilantro y salsa
+                                        fresca en tortillas de maíz.</a>
+                                    <span class="text-primary me-1">₡5000</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid" src="img/restaurante4.jpg" alt="" style="width: 300px; height: 249px;">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Tacos de Carne Asada</a>
+                                    <a class="d-block h6 mb-2">Carne de res marinada con cebolla, cilantro y salsa
+                                        fresca en tortillas de maíz.</a>
+                                    <span class="text-primary me-1">₡5000</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid" src="img/restaurante4.jpg" alt="" style="width: 300px; height: 249px;">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Tacos de Carne Asada</a>
+                                    <a class="d-block h6 mb-2">Carne de res marinada con cebolla, cilantro y salsa
+                                        fresca en tortillas de maíz.</a>
+                                    <span class="text-primary me-1">₡5000</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div id="tab-2" class="tab-pane fade show p-0">
+                    <div class="row g-4">
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid" src="img/restauranteBrownie.jpg" alt="" style="width: 300px; height: 249px;">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2">Brownie de Chocolate</a>
+                                    <a class="d-block h6 mb-2">Brownie de chocolate con trozos de nuez y una bola de
+                                        helado.</a>
+                                    <span class="text-primary me-1">₡5000</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid" src="img/restauranteHelado.jpg" alt="" style="width: 300px; height: 249px;">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2">Helado Sundae</a>
+                                    <a class="d-block h6 mb-2">Helado de vainilla con sirope de chocolate, crema batida
+                                        y cereza.</a>
+                                    <span class="text-primary me-1">₡5000</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid" src="img/restauranteHelado.jpg" alt="" style="width: 300px; height: 249px;">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2">Helado Sundae</a>
+                                    <a class="d-block h6 mb-2">Helado de vainilla con sirope de chocolate, crema batida
+                                        y cereza.</a>
+                                    <span class="text-primary me-1">₡5000</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid" src="img/restauranteHelado.jpg" alt="" style="width: 300px; height: 249px;">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2">Helado Sundae</a>
+                                    <a class="d-block h6 mb-2">Helado de vainilla con sirope de chocolate, crema batida
+                                        y cereza.</a>
+                                    <span class="text-primary me-1">₡5000</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div id="tab-3" class="tab-pane fade show p-0">
+                    <div class="row g-4">
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid" src="img/restauranteHelado.jpg" alt="" style="width: 300px; height: 249px;">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2">Helado Sundae</a>
+                                    <a class="d-block h6 mb-2">Helado de vainilla con sirope de chocolate, crema batida
+                                        y cereza.</a>
+                                    <span class="text-primary me-1">₡5000</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid" src="img/restauranteHelado.jpg" alt="" style="width: 300px; height: 249px;">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2">Helado Sundae</a>
+                                    <a class="d-block h6 mb-2">Helado de vainilla con sirope de chocolate, crema batida
+                                        y cereza.</a>
+                                    <span class="text-primary me-1">₡5000</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid" src="img/restauranteHelado.jpg" alt="" style="width: 300px; height: 249px;">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2">Helado Sundae</a>
+                                    <a class="d-block h6 mb-2">Helado de vainilla con sirope de chocolate, crema batida
+                                        y cereza.</a>
+                                    <span class="text-primary me-1">₡5000</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid" src="img/restauranteHelado.jpg" alt="" style="width: 300px; height: 249px;">
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2">Helado Sundae</a>
+                                    <a class="d-block h6 mb-2">Helado de vainilla con sirope de chocolate, crema batida
+                                        y cereza.</a>
+                                    <span class="text-primary me-1">₡5000</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Añadir al carrito</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Product End -->
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid bg-light py-6 mb-5">
+        <div class="container">
+            <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-5 mb-3">Mensajes de Testimonios</h1>
+                <p>En GoKarts, nos especializamos en ofrecer comida rápida de alta calidad que satisface todos tus antojos.
+                    Creemos que la comida rápida no tiene por qué sacrificar el sabor ni la frescura.</p>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item position-relative bg-white p-5 mt-4">
+                    <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"></i>
+                    <p class="mb-4">¡La mejor comida rápida que he probado! Todo es fresco y lleno de sabor. Perfecto
+                        para una comida rápida sin comprometer la calidad.</p>
+                    <div class="d-flex align-items-center">
+                        <div class="ms-3">
+                            <h5 class="mb-1">- Sofia M.</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item position-relative bg-white p-5 mt-4">
+                    <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"></i>
+                    <p class="mb-4">El servicio fue rápido y la comida deliciosa. Recomiendo especialmente las hamburguesas. ¡
+                        Definitivamente volveré!</p>
+                    <div class="d-flex align-items-center">
+                        <div class="ms-3">
+                            <h5 class="mb-1">- Carlos G.</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item position-relative bg-white p-5 mt-4">
+                    <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"></i>
+                    <p class="mb-4">Ideal para una comida rápida y sabrosa. El menú tiene opciones para todos los
+                        gustos y el ambiente es muy agradable.</p>
+                    <div class="d-flex align-items-center">
+                        <div class="ms-3">
+                            <h5 class="mb-1">- Mariana L.</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item position-relative bg-white p-5 mt-4">
+                    <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"></i>
+                    <p class="mb-4">Las porciones son generosas y los precios justos. Me encanta la variedad de
+                        opciones que tienen. ¡Muy recomendable!</p>
+                    <div class="d-flex align-items-center">
+                        <div class="ms-3">
+                            <h5 class="mb-1">- Jose T.</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h1 class="fw-bold text-primary mb-4">G<span class="text-secondary">o</span>Ka<span class="text-secondary">rts</span></h1>
+                    <p>GoKarts nació del amor por las carreras y la adrenalina. Hemos crecido hasta convertirnos en el
+                        principal destino de go karts en San Jose, Costa Rica</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href="https://www.instagram.com/Alex__abarca"><i class="fab fa-instagram"></i>
+                        </a>
+
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Ubicacion</h4>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>200 m este, Centro Comercial Milla de Oro Plaza</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>2524-0739</p>
+                    <p><i class="fa fa-envelope me-3"></i>info@GoKarts.com</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Enlaces Rápidos</h4>
+                    <a class="btn btn-link" href="nosotros.html">Nosotros</a>
+                    <a class="btn btn-link" href="contactanos.html">Contactanos</a>
+                    <a class="btn btn-link" href="">Terminos y Condiciones</a>
+                    <a class="btn btn-link" href="">Soporte</a>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">GoKarts</a>, Todos los derechos reservados.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+
+</body>
+
+
+</html>

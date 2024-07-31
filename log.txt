@@ -1,4 +1,3 @@
-
 2024-07-21 21:36:58 ingresando a la funcion
 2024-07-21 21:36:58 
 2024-07-21 21:36:58 despues de oci_connect
@@ -47,3 +46,37 @@
 2024-07-21 23:17:28 antes del insert
 2024-07-21 23:17:28 exito
 2024-07-21 23:17:28 despues del insert
+2024-07-22 02:51:06 ingresando a la funcion
+2024-07-22 02:51:06 jaun
+2024-07-22 02:51:06 despues de oci_connect
+2024-07-22 02:51:06 antes del insert
+2024-07-22 02:51:06 exito
+2024-07-22 02:51:06 despues del insert
+2024-07-22 02:51:28 ingresando a la funcion
+2024-07-22 02:51:28 asdasd
+2024-07-22 02:51:28 despues de oci_connect
+2024-07-22 02:51:28 El correo electrónico ya existe
+2024-07-22 02:54:23 ingresando a la funcion
+2024-07-22 02:54:23 das
+2024-07-22 02:54:23 despues de oci_connect
+2024-07-22 02:54:23 antes del insert
+2024-07-22 02:54:23 exito
+2024-07-22 02:54:23 despues del insert
+2024-07-22 02:54:25 ingresando a la funcion
+2024-07-22 02:54:25 das
+2024-07-22 02:54:25 despues de oci_connect
+2024-07-22 02:54:25 antes del insert
+2024-07-22 02:54:25 exito
+2024-07-22 02:54:25 despues del insert
+2024-07-22 02:54:35 ingresando a la funcion
+2024-07-22 02:54:35 das
+2024-07-22 02:54:35 despues de oci_connect
+2024-07-22 02:54:35 antes del insert
+2024-07-22 02:54:35 exito
+2024-07-22 02:54:35 despues del insert
+2024-07-22 02:55:55 ingresando a la funcion
+2024-07-22 02:55:55 Alexander
+2024-07-22 02:55:55 despues de oci_connect
+2024-07-22 02:55:55 antes del insert
+2024-07-22 02:55:55 exito
+2024-07-22 02:55:55 despues del insert

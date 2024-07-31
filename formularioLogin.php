@@ -47,10 +47,7 @@ $registrado = " ";
             <div class="form-information">
                 <div class="form-information-childs">
                     <h2>Iniciar Sesión</h2>
-                    <div class="icons">
-                        <i class='bx bxl-google'></i>
-                    </div>
-                    <p>o Iniciar Sesión con una cuenta</p>
+                    
                     <form class="form form-login" novalidate method="post" action="procesarLogin.php">
                         <div>
                             <label>

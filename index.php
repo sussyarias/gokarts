@@ -66,15 +66,16 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
-                    <a href="index.html" class="nav-item nav-link active">Inicio</a>
-                    <a href="nosotros.html" class="nav-item nav-link">Nosotros</a>
-                    <a href="restaurante.html" class="nav-item nav-link">Restaurante</a>
+                    <a href="index.php" class="nav-item nav-link active">Inicio</a>
+                    <a href="nosotros.php" class="nav-item nav-link">Nosotros</a>
+                    <a href="restaurante.php" class="nav-item nav-link">Restaurante</a>
                     <a href="" class="nav-item nav-link">Reserva</a>
-                    <a href="contactanos.html" class="nav-item nav-link">Contactanos</a>
+                    <a href="eventos.php" class="nav-item nav-link">Eventos</a>
+                    <a href="contactanos.php" class="nav-item nav-link">Contactanos</a>
                 </div>
                 <div class="d-none d-lg-flex ms-2">
 
-                    <a class="btn-sm-square bg-white rounded-circle ms-3" href="carrito.html">
+                    <a class="btn-sm-square bg-white rounded-circle ms-3" href="carrito.php">
                         <small class="fa fa-shopping-bag text-body"></small>
                     </a>
                 </div>

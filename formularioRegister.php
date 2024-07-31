@@ -37,10 +37,6 @@ $registrado = " ";
         <div class="form-information">
             <div class="form-information-childs">
                 <h2>Crear una Cuenta</h2>
-                <div class="icons">
-                    <i class='bx bxl-google'></i>
-                </div>
-                <p>o usa tu email para registrarte</p>
                 <form class="form form-register" novalidate id="registerForm" method="post" action="procesarRegistro.php" autocomplete="off">
                     <div>
                         <label>
@@ -76,7 +72,7 @@ $registrado = " ";
     </div>
 
 
-
+    
 
     <script src="js/scripts.js"></script>
     <script>
