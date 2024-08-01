@@ -74,7 +74,7 @@ $registrado = " ";
 
     
 
-    <script src="js/scripts.js"></script>
+    <script src="./assets/js/scripts.js"></script>
     <script>
         $(document).ready(function() {
             // Asegúrate de cerrar el bloque PHP correctamente y de que el valor esté correctamente formateado

@@ -10,7 +10,7 @@
       align-items: center;
       justify-content: center;
       height: 100vh;
-      background-image: url(/gokarts/img/fondoLogin.jpg);
+      background-image: url(../img/fondoLogin.jpg);
       background-size: cover;
   }
   
