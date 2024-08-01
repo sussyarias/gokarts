@@ -8,7 +8,7 @@
     <meta content="" name="keywords">
     <meta content="" name="description">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
 
@@ -22,8 +22,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
@@ -69,7 +69,7 @@
                     <a href="index.php" class="nav-item nav-link active">Inicio</a>
                     <a href="nosotros.php" class="nav-item nav-link">Nosotros</a>
                     <a href="restaurante.php" class="nav-item nav-link">Restaurante</a>
-                    <a href="" class="nav-item nav-link">Reserva</a>
+                    <a href="reserva.php" class="nav-item nav-link">Reserva</a>
                     <a href="eventos.php" class="nav-item nav-link">Eventos</a>
                     <a href="contactanos.php" class="nav-item nav-link">Contactanos</a>
                 </div>
@@ -199,6 +199,25 @@
         </div>
     </div>
 
+    <!-- Modal de Confirmación -->
+    <div class="modal fade" id="confirmacionModal" tabindex="-1" aria-labelledby="confirmacionModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="confirmacionModalLabel">Confirmación</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="refreshPage()"></button>
+                </div>
+                <div class="modal-body">
+                    <p>¡Tu formulario ha sido enviado correctamente!</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" onclick="refreshPage()">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal End -->
+tiene menú contextual
 
 
     <!-- Testimonial Start -->
@@ -307,22 +326,21 @@
     </div>
     <!-- Footer End -->
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+   <!-- Back to Top -->
+   <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../lib/wow/wow.min.js"></script>
+<script src="../lib/easing/easing.min.js"></script>
+<script src="../lib/waypoints/waypoints.min.js"></script>
+<script src="../lib/owlcarousel/owl.carousel.min.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="./assets/js/main.js"></script>
-    <script src="./assets/js/scriptEventos.js"></script>
-
+<!-- Template Javascript -->
+<script src="./assets/js/main.js"></script>
+<script src="./assets/js/scriptEventos.js"></script>
     
 </body>
 

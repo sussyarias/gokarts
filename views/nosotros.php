@@ -8,6 +8,7 @@
     <meta content="" name="keywords">
     <meta content="" name="description">
 
+
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
 
@@ -21,8 +22,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
@@ -30,6 +31,7 @@
     <!-- Template Stylesheet -->
     <link href="./assets/css/style.css" rel="stylesheet">
 </head>
+
 
 <body>
     <!-- Spinner Start -->
@@ -39,8 +41,8 @@
     <!-- Spinner End -->
 
 
-    <!-- Navbar Start -->
-    <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
+ <!-- Navbar Start -->
+ <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="top-bar row gx-0 align-items-center d-none d-lg-flex">
             <div class="col-lg-6 px-5 text-start">
                 <small><i class="fa fa-map-marker-alt me-2"></i>200 m este, Centro Comercial Milla de Oro Plaza</small>
@@ -67,6 +69,7 @@
                     <a href="nosotros.php" class="nav-item nav-link">Nosotros</a>
                     <a href="restaurante.php" class="nav-item nav-link">Restaurante</a>
                     <a href="reserva.php" class="nav-item nav-link">Reserva</a>
+                    <a href="eventos.php" class="nav-item nav-link">Eventos</a>
                     <a href="contactanos.php" class="nav-item nav-link">Contactanos</a>
                 </div>
                 <div class="d-none d-lg-flex ms-2">
@@ -79,7 +82,6 @@
         </nav>
     </div>
     <!-- Navbar End -->
-
 
     <!-- Page Header Start -->
     <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s" style="background-image: none; background-color: #e1e4eb;">
@@ -206,20 +208,20 @@
     <!-- Footer End -->
 
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+   <!-- Back to Top -->
+   <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../lib/wow/wow.min.js"></script>
+<script src="../lib/easing/easing.min.js"></script>
+<script src="../lib/waypoints/waypoints.min.js"></script>
+<script src="../lib/owlcarousel/owl.carousel.min.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="./assets/js/main.js"></script>
+<!-- Template Javascript -->
+<script src="./assets/js/main.js"></script>
 </body>
 
 </html>
