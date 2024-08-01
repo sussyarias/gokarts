@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Foody - Organic Food Website Template</title>
+    <title>GoKarts</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -25,10 +25,10 @@
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -66,12 +66,12 @@
                     <a href="index.php" class="nav-item nav-link active">Inicio</a>
                     <a href="nosotros.php" class="nav-item nav-link">Nosotros</a>
                     <a href="restaurante.php" class="nav-item nav-link">Restaurante</a>
-                    <a href="" class="nav-item nav-link">Reserva</a>
+                    <a href="reserva.php" class="nav-item nav-link">Reserva</a>
                     <a href="contactanos.php" class="nav-item nav-link">Contactanos</a>
                 </div>
                 <div class="d-none d-lg-flex ms-2">
 
-                    <a class="btn-sm-square bg-white rounded-circle ms-3" href="carrito.html">
+                    <a class="btn-sm-square bg-white rounded-circle ms-3" href="carrito.php">
                         <small class="fa fa-shopping-bag text-body"></small>
                     </a>
                 </div>
@@ -84,82 +84,82 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s" style="background-image: none; background-color: #e1e4eb;">
         <div class="container">
-            <h1 class="display-3 mb-3 animated slideInDown">Contactanos</h1>
+            <h1 class="display-3 mb-3 animated slideInDown">Nosotros</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb mb-0">
                     <li class="breadcrumb-item"><a class="text-body" href="index.html">Inicio</a></li>
-                    <li class="breadcrumb-item text-dark active" aria-current="page">Contactanos</li>
+                    <li class="breadcrumb-item text-dark active" aria-current="page">Nosotros</li>
                 </ol>
             </nav>
         </div>
     </div>
-
     <!-- Page Header End -->
 
-    <!-- Contact Start -->
-    <div class="container-xxl py-6">
+
+    <div class="container-xxl py-5">
         <div class="container">
-            <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <h1 class="display-5 mb-3">Contactanos</h1>
-                <p>¡Gracias por tu interés en GoKarts! Estamos aquí para resolver todas tus dudas y ayudarte a disfrutar
-                    de una experiencia emocionante en nuestras pistas.</p>
-            </div>
-            <div class="row g-5 justify-content-center">
-                <div class="col-lg-5 col-md-12 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="bg-primary text-white d-flex flex-column justify-content-center h-100 p-5">
-                        <h5 class="text-white">Telefono</h5>
-                        <p class="mb-5"><i class="fa fa-phone-alt me-3"></i>+506 8711 5338</p>
-                        <h5 class="text-white">Correo Electronico</h5>
-                        <p class="mb-5"><i class="fa fa-envelope me-3"></i>info@GoKarts.com</p>
-                        <h5 class="text-white">Direccion</h5>
-                        <p class="mb-5"><i class="fa fa-map-marker-alt me-3"></i>200 m este, Centro Comercial Milla de
-                            Oro Plaza</p>
-                        <h5 class="text-white">Siguenos</h5>
-                        <div class="d-flex pt-2">
-                            <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-instagram"></i>
-                                <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                        </div>
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="about-img position-relative overflow-hidden p-5 pe-0">
+                        <img class="img-fluid w-100" src="./assets/img/karts3.jpg">
                     </div>
                 </div>
-                <div class="col-lg-7 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-                    <form>
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                    <label for="name">Ingrese su nombre aqui</label>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                    <label for="email">Ingrese su correo aqui</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 200px"></textarea>
-                                    <label for="message">Mensaje</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary rounded-pill py-3 px-5" type="submit">Enviar Mensaje
-                                </button>
-                            </div>
-                        </div>
-                    </form>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="display-5 mb-4">Los mejores Go Karts de Costa Rica</h1>
+                    <p class="mb-4">Bienvenidos a Go Karts Somos apasionados de la velocidad y la emoción.
+                        Nuestra misión es ofrecer una experiencia inolvidable en el mundo de los go karts para todas las
+                        edades.
+                    </p>
+                    <p><i class="fa fa-check text-primary me-3"></i>Ofrecemos pistas de última generación</p>
+                    <p><i class="fa fa-check text-primary me-3"></i>Nuestras instalaciones están equipadas con la última
+                        tecnología para garantizar la seguridad y e
+                        l disfrute de todos nuestros visitantes.</p>
+                    <p><i class="fa fa-check text-primary me-3"></i>Nos enorgullece ser parte de la comunidad local.
+                        Apoyamos eventos comunitarios y estamos comprometidos
+                        con el desarrollo y la diversión de nuestra región.</p>
+                    <a class="btn btn-primary rounded-pill py-3 px-5 mt-3" href="">Conoce mas</a>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Contact End -->
+    <!-- About End -->
 
 
-    <!-- Google Map Start -->
-    <div class="container-xxl px-0 wow fadeIn" data-wow-delay="0.1s" style="margin-bottom: -6px;">
-        <iframe class="w-100" style="height: 450px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125770.72524952798!2d-84.06190013598676!3d9.906018135591703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e3ec979faaab%3A0x4a4477b359ae83ed!2sFormula%20Kart!5e0!3m2!1ses-419!2scr!4v1721414277238!5m2!1ses-419!2scr" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    <!-- Feature Start -->
+    <div class="container-fluid bg-light my-5 py-6">
+        <div class="container">
+            <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-5 mb-3">Nuestras caracteristica</h1>
+                <p>Disfruta de una experiencia única con nuestros go karts de alta velocidad. ¡Ven y vive la emoción de
+                    la pista!</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="bg-white text-center h-100 p-4 p-xl-5">
+                        <img class="img-fluid mb-4" src="./assets/img/icon-kart1.png" alt="">
+                        <h4 class="mb-3">Nuestros karts</h4>
+                        <p class="mb-4">Disfruta de karts modernos y bien mantenidos para una experiencia de primera
+                            clase.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="bg-white text-center h-100 p-4 p-xl-5">
+                        <img class="img-fluid mb-4" src="./assets/img/icon-kart2.png" alt="">
+                        <h4 class="mb-3">Nuestras pistas</h4>
+                        <p class="mb-4">Pistas diseñadas para una experiencia de carreras inolvidable.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="bg-white text-center h-100 p-4 p-xl-5">
+                        <img class="img-fluid mb-4" src="./assets/img/icon-kart3.png" alt="">
+                        <h4 class="mb-3">Nuestras comidas</h4>
+                        <p class="mb-4">Comida de alta calidad para complementar tu día de carreras.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <!-- Google Map End -->
+    <!-- Feature End -->
 
 
     <!-- Footer Start -->
@@ -219,7 +219,7 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 
 </html>

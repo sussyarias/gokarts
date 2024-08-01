@@ -14,8 +14,7 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Lora:wght@600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Lora:wght@600;700&display=swap" rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -26,16 +25,15 @@
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
     <!-- Spinner Start -->
-    <div id="spinner"
-        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" role="status"></div>
     </div>
     <!-- Spinner End -->
@@ -58,20 +56,18 @@
 
         <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
             <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
-                <h1 class="fw-bold text-primary mb-4">G<span class="text-secondary">o</span>Ka<span
-                        class="text-secondary">rts</span></h1>
+                <h1 class="fw-bold text-primary mb-4">G<span class="text-secondary">o</span>Ka<span class="text-secondary">rts</span></h1>
             </a>
-            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
-                data-bs-target="#navbarCollapse">
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
-                    <a href="index.html" class="nav-item nav-link active">Inicio</a>
-                    <a href="nosotros.html" class="nav-item nav-link">Nosotros</a>
-                    <a href="restaurante.html" class="nav-item nav-link">Restaurante</a>
-                    <a href="reserva.html" class="nav-item nav-link">Reserva</a>
-                    <a href="contactanos.html" class="nav-item nav-link">Contactanos</a>
+                    <a href="index.php" class="nav-item nav-link active">Inicio</a>
+                    <a href="nosotros.php" class="nav-item nav-link">Nosotros</a>
+                    <a href="restaurante.php" class="nav-item nav-link">Restaurante</a>
+                    <a href="reserva.php" class="nav-item nav-link">Reserva</a>
+                    <a href="contactanos.php" class="nav-item nav-link">Contactanos</a>
                 </div>
                 <div class="d-none d-lg-flex ms-2">
 
@@ -97,14 +93,13 @@
             </nav>
         </div>
     </div>
-    
+
     <!-- Page Header End -->
 
     <!-- Contact Start -->
     <div class="container-xxl py-6">
         <div class="container">
-            <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s"
-                style="max-width: 500px;">
+            <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                 <h1 class="display-5 mb-3">Contactanos</h1>
                 <p>¡Gracias por tu interés en GoKarts! Estamos aquí para resolver todas tus dudas y ayudarte a disfrutar
                     de una experiencia emocionante en nuestras pistas.</p>
@@ -121,10 +116,8 @@
                             Oro Plaza</p>
                         <h5 class="text-white">Siguenos</h5>
                         <div class="d-flex pt-2">
-                            <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i
-                                    class="fab fa-instagram"></i>
-                                <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i
-                                        class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-instagram"></i>
+                                <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
                         </div>
                     </div>
                 </div>
@@ -145,8 +138,7 @@
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message"
-                                        style="height: 200px"></textarea>
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 200px"></textarea>
                                     <label for="message">Mensaje</label>
                                 </div>
                             </div>
@@ -165,9 +157,7 @@
 
     <!-- Google Map Start -->
     <div class="container-xxl px-0 wow fadeIn" data-wow-delay="0.1s" style="margin-bottom: -6px;">
-        <iframe class="w-100" style="height: 450px;"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125770.72524952798!2d-84.06190013598676!3d9.906018135591703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e3ec979faaab%3A0x4a4477b359ae83ed!2sFormula%20Kart!5e0!3m2!1ses-419!2scr!4v1721414277238!5m2!1ses-419!2scr"
-            frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <iframe class="w-100" style="height: 450px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125770.72524952798!2d-84.06190013598676!3d9.906018135591703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e3ec979faaab%3A0x4a4477b359ae83ed!2sFormula%20Kart!5e0!3m2!1ses-419!2scr!4v1721414277238!5m2!1ses-419!2scr" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </div>
     <!-- Google Map End -->
 
@@ -177,15 +167,12 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
-                    <h1 class="fw-bold text-primary mb-4">G<span class="text-secondary">o</span>Ka<span
-                            class="text-secondary">rts</span></h1>
+                    <h1 class="fw-bold text-primary mb-4">G<span class="text-secondary">o</span>Ka<span class="text-secondary">rts</span></h1>
                     <p>GoKarts nació del amor por las carreras y la adrenalina. Hemos crecido hasta convertirnos en el
                         principal destino de go karts en San Jose, Costa Rica</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i
-                                class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i
-                                class="fab fa-instagram"></i>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-instagram"></i>
                         </a>
 
 
@@ -220,8 +207,7 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
-            class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->

@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="./assets/img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,10 +25,10 @@
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -66,7 +66,7 @@
                     <a href="index.php" class="nav-item nav-link active">Inicio</a>
                     <a href="nosotros.php" class="nav-item nav-link">Nosotros</a>
                     <a href="restaurante.php" class="nav-item nav-link">Restaurante</a>
-                    <a href="" class="nav-item nav-link">Reserva</a>
+                    <a href="reserva.php" class="nav-item nav-link">Reserva</a>
                     <a href="contactanos.php" class="nav-item nav-link">Contactanos</a>
                 </div>
                 <div class="d-none d-lg-flex ms-2">
@@ -129,7 +129,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid" src="img\Restaurante\Comidas\Hamburguesa/Hamburguesa1.jpg" alt="" style="width: 300px; height: 249px;">
+                                    <img class="img-fluid" src="./assets/img\Restaurante\Comidas\Hamburguesa/Hamburguesa1.jpg" alt="" style="width: 300px; height: 249px;">
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5 mb-2">Hamburguesa Clásica</a>
@@ -147,7 +147,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid" src="img\Restaurante\Comidas\Hamburguesa/Hamburguesa2.jpg" alt="" style="width: 300px; height: 249px;">
+                                    <img class="img-fluid" src="./assets/img\Restaurante\Comidas\Hamburguesa/Hamburguesa2.jpg" alt="" style="width: 300px; height: 249px;">
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5 mb-2">Cheeseburger</a>
@@ -164,7 +164,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid" src="img\Restaurante\Comidas\Hamburguesa/Hamburguesa2.jpg" alt="" style="width: 300px; height: 249px;">
+                                    <img class="img-fluid" src="./assets/img\Restaurante\Comidas\Hamburguesa/Hamburguesa2.jpg" alt="" style="width: 300px; height: 249px;">
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5 mb-2">Hamburguesa de Pollo</a>
@@ -188,7 +188,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid" src="img/restaurante2.jpg" alt="" style="width: 300px; height: 249px;">
+                                    <img class="img-fluid" src="./assets/img/restaurante2.jpg" alt="" style="width: 300px; height: 249px;">
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5 mb-2" href="">Sándwich Club</a>
@@ -206,7 +206,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid" src="img/restaurante3.jpg" alt="" style="width: 300px; height: 249px;">
+                                    <img class="img-fluid" src="./assets/img/restaurante3.jpg" alt="" style="width: 300px; height: 249px;">
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5 mb-2">Pizza Vegetariana</a>
@@ -225,7 +225,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid" src="img/restaurante4.jpg" alt="" style="width: 300px; height: 249px;">
+                                    <img class="img-fluid" src="./assets/img/restaurante4.jpg" alt="" style="width: 300px; height: 249px;">
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5 mb-2" href="">Tacos de Carne Asada</a>
@@ -243,7 +243,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid" src="img/restaurante4.jpg" alt="" style="width: 300px; height: 249px;">
+                                    <img class="img-fluid" src="./assets/img/restaurante4.jpg" alt="" style="width: 300px; height: 249px;">
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5 mb-2" href="">Tacos de Carne Asada</a>
@@ -261,7 +261,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid" src="img/restaurante4.jpg" alt="" style="width: 300px; height: 249px;">
+                                    <img class="img-fluid" src="./assets/img/restaurante4.jpg" alt="" style="width: 300px; height: 249px;">
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5 mb-2" href="">Tacos de Carne Asada</a>
@@ -279,7 +279,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid" src="img/restaurante4.jpg" alt="" style="width: 300px; height: 249px;">
+                                    <img class="img-fluid" src="./assets/img/restaurante4.jpg" alt="" style="width: 300px; height: 249px;">
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5 mb-2" href="">Tacos de Carne Asada</a>
@@ -297,7 +297,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid" src="img/restaurante4.jpg" alt="" style="width: 300px; height: 249px;">
+                                    <img class="img-fluid" src="./assets/img/restaurante4.jpg" alt="" style="width: 300px; height: 249px;">
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5 mb-2" href="">Tacos de Carne Asada</a>
@@ -315,7 +315,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid" src="img/restaurante4.jpg" alt="" style="width: 300px; height: 249px;">
+                                    <img class="img-fluid" src="./assets/img/restaurante4.jpg" alt="" style="width: 300px; height: 249px;">
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5 mb-2" href="">Tacos de Carne Asada</a>
@@ -333,7 +333,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid" src="img/restaurante4.jpg" alt="" style="width: 300px; height: 249px;">
+                                    <img class="img-fluid" src="./assets/img/restaurante4.jpg" alt="" style="width: 300px; height: 249px;">
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5 mb-2" href="">Tacos de Carne Asada</a>
@@ -351,7 +351,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid" src="img/restaurante4.jpg" alt="" style="width: 300px; height: 249px;">
+                                    <img class="img-fluid" src="./assets/img/restaurante4.jpg" alt="" style="width: 300px; height: 249px;">
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5 mb-2" href="">Tacos de Carne Asada</a>
@@ -369,7 +369,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid" src="img/restaurante4.jpg" alt="" style="width: 300px; height: 249px;">
+                                    <img class="img-fluid" src="./assets/img/restaurante4.jpg" alt="" style="width: 300px; height: 249px;">
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5 mb-2" href="">Tacos de Carne Asada</a>
@@ -393,7 +393,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid" src="img/restauranteBrownie.jpg" alt="" style="width: 300px; height: 249px;">
+                                    <img class="img-fluid" src="./assets/img/restauranteBrownie.jpg" alt="" style="width: 300px; height: 249px;">
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5 mb-2">Brownie de Chocolate</a>
@@ -411,7 +411,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid" src="img/restauranteHelado.jpg" alt="" style="width: 300px; height: 249px;">
+                                    <img class="img-fluid" src="./assets/img/restauranteHelado.jpg" alt="" style="width: 300px; height: 249px;">
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5 mb-2">Helado Sundae</a>
@@ -429,7 +429,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid" src="img/restauranteHelado.jpg" alt="" style="width: 300px; height: 249px;">
+                                    <img class="img-fluid" src="./assets/img/restauranteHelado.jpg" alt="" style="width: 300px; height: 249px;">
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5 mb-2">Helado Sundae</a>
@@ -447,7 +447,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid" src="img/restauranteHelado.jpg" alt="" style="width: 300px; height: 249px;">
+                                    <img class="img-fluid" src="./assets/img/restauranteHelado.jpg" alt="" style="width: 300px; height: 249px;">
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5 mb-2">Helado Sundae</a>
@@ -472,7 +472,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid" src="img/restauranteHelado.jpg" alt="" style="width: 300px; height: 249px;">
+                                    <img class="img-fluid" src="./assets/img/restauranteHelado.jpg" alt="" style="width: 300px; height: 249px;">
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5 mb-2">Helado Sundae</a>
@@ -490,7 +490,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid" src="img/restauranteHelado.jpg" alt="" style="width: 300px; height: 249px;">
+                                    <img class="img-fluid" src="./assets/img/restauranteHelado.jpg" alt="" style="width: 300px; height: 249px;">
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5 mb-2">Helado Sundae</a>
@@ -508,7 +508,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid" src="img/restauranteHelado.jpg" alt="" style="width: 300px; height: 249px;">
+                                    <img class="img-fluid" src="./assets/img/restauranteHelado.jpg" alt="" style="width: 300px; height: 249px;">
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5 mb-2">Helado Sundae</a>
@@ -526,7 +526,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="product-item">
                                 <div class="position-relative bg-light overflow-hidden">
-                                    <img class="img-fluid" src="img/restauranteHelado.jpg" alt="" style="width: 300px; height: 249px;">
+                                    <img class="img-fluid" src="./assets/img/restauranteHelado.jpg" alt="" style="width: 300px; height: 249px;">
                                 </div>
                                 <div class="text-center p-4">
                                     <a class="d-block h5 mb-2">Helado Sundae</a>
@@ -661,7 +661,7 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="./assets/js/main.js"></script>
 
 
 </body>
